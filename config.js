@@ -1,6 +1,4 @@
 module.exports = {
-  jiraOrgName: 'duffn-sandbox',
-  gitHubOwner: 'duffn',
   selectors: {
     usernameSelector: '#username',
     passwordSelector: '#password',
