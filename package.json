@@ -1,0 +1,38 @@
+{
+  "name": "greleaser",
+  "version": "0.1.0",
+  "description": "Create releases in GitHub using release notes from a Jira version.",
+  "main": "greleaser.js",
+  "author": "Nicholas Duffy <@duffn>",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^15.10.0",
+    "puppeteer": "^1.7.0",
+    "yargs": "^12.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0"
+  },
+  "bin": {
+    "greleaser": "cli.js"
+  },
+  "keywords": [
+    "jira",
+    "github",
+    "release",
+    "version"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/duffn/greleaser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/duffn/greleaser/issues"
+  },
+  "homepage": "https://github.com/duffn/greleaser#readme"
+}
