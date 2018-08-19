@@ -11,9 +11,18 @@ Create releases in GitHub using release notes from a Jira version.
 
 ## Setup
 - Install with `npm install -g greleaser`
-- In the package directory, copy `credentials.sample.js` to `credentials.js` and fill in your Jira and GitHub credentials.
-  - Note that if you use 2FA on GitHub, you'll need to use a [personal access](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/) with the `repo` scope in place of your GitHub password.
-- Fill in your Jira organization name and GitHub organization or user name in `config.js`.
+- Set the necessary environment variables.
+
+```bash
+export JIRA_ORGNAME='myjiraorg'
+export JIRA_USERNAME='me@email.com'
+export JIRA_PASSWORD='jirapassowrd'
+export GITHUB_USERNAME='me'
+export GITHUB_PASSWORD='githubpassword'
+export GITHUB_ORG_NAME='mygithuborg'
+```
+
+Note that if you use 2FA on GitHub, you'll need to use a [personal access](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/) with the `repo` scope in place of your GitHub password.
 
 ## Basic Use
 - Get the ID of the version that you want release on GitHub from the Jira version page.
