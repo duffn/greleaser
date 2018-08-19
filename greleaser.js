@@ -67,7 +67,6 @@ async function getJiraReleaseNotes (jiraProject, jiraVersion, tag) {
 
   if (!tag) {
     const releaseInformation = regexResult[1].split(' ')
-    console.log(releaseInformation)
     tag = releaseInformation[releaseInformation.length - 1]
   }
 
