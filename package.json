@@ -1,6 +1,6 @@
 {
   "name": "greleaser",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Create releases in GitHub using release notes from a Jira version.",
   "main": "greleaser.js",
   "author": "Nicholas Duffy <@duffn>",
