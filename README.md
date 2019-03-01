@@ -1,6 +1,6 @@
 # GReleaser
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/duffn/greleaser.svg)](https://greenkeeper.io/)
+[![CircleCI](https://circleci.com/gh/duffn/greleaser.svg?style=svg)](https://circleci.com/gh/duffn/greleaser) [![Greenkeeper badge](https://badges.greenkeeper.io/duffn/greleaser.svg)](https://greenkeeper.io/)
 
 Create releases in GitHub using release notes from a Jira version.
 
