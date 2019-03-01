@@ -1,0 +1,7 @@
+jobs:
+  build:
+    docker:
+      - image: circleci/node:8.15.1
+    steps:
+      - checkout
+      - run: echo "This is GReleaser"
