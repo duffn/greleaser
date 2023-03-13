@@ -1,3 +1,7 @@
+# Unmaintained
+
+_This repository is archived and unmaintained. Use at your own risk._
+
 # GReleaser
 
 [![CircleCI](https://circleci.com/gh/duffn/greleaser.svg?style=svg)](https://circleci.com/gh/duffn/greleaser) [![Greenkeeper badge](https://badges.greenkeeper.io/duffn/greleaser.svg)](https://greenkeeper.io/)
